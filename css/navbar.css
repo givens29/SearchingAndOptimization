@@ -1,0 +1,139 @@
+.navbar {
+    background-image: radial-gradient(100% 100% at 100% 0, #F60984 0, #b103ab 100%);
+     box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+  
+  }
+
+  .nav-link {
+    color: #ffffff !important;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+    width: 100px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 5%;
+  }
+
+  .btnNavbar {
+
+  align-items: center;
+  appearance: none;
+  background-image: radial-gradient(100% 100% at 100% 0, #F60984 0, #b103ab 100%);
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #fff !important;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+}
+
+.nav-link {
+    appearance: button;
+    background-color: #000;
+    background-image: none;
+    border: 1px solid #000;
+    border-radius: 4px;
+    box-shadow: #fff 4px 4px 0 0,#000 4px 4px 0 1px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: ITCAvantGardeStd-Bk,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin: 0 5px 10px 0;
+    overflow: visible;
+    padding: 12px 40px;
+    text-align: center;
+    text-transform: none;
+    touch-action: manipulation;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+  }
+  
+  .nav-link:focus {
+    text-decoration: none;
+  }
+  
+  .nav-link:hover {
+    text-decoration: none;
+  }
+  
+  .nav-link:active {
+    box-shadow: rgba(0, 0, 0, .125) 0 3px 5px inset;
+    outline: 0;
+  }
+  
+  .nav-link:not([disabled]):active {
+    box-shadow: #fff 2px 2px 0 0, #000 2px 2px 0 1px;
+    transform: translate(2px, 2px);
+  }
+  
+  @media (min-width: 768px) {
+    .btn {
+      padding: 12px 50px;
+    }
+  }
+  .logo{
+    margin-right:5%;
+    font-family: "Arial Black", Gadget, sans-serif;
+font-size: 25px;
+letter-spacing: 2px;
+word-spacing: 2px;
+color: #ffffff;
+font-weight: normal;
+font-style: normal;
+width: 210px;
+  border:3px solid rgb(38, 0, 255);
+  line-height: normal;
+  box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+  }
+  body {
+    background-color: #f0f0f0;
+  }
+
+  .logo p {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+  }
+  .logo h1 {
+    margin-bottom: 0;
+  }
+  
+  .logo .TSU {
+    margin-top: 0;
+  }
+  .logo1{
+    margin-left:5%;
+  }
+
+ 
+  
+  
+ 
+  

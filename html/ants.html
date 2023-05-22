@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="/css/navbar.css"/>
+  <link rel="stylesheet" type="text/css" href="/css/content.css"/>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light p-3 mb-2 bg-light shadow">
+    <div class="container-fluid">
+      <div class="logo1">
+      <img src="/assets/graph.png" width="100"height="100">
+      </div>
+      <button class="btnNavbar navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="astar.html">Astars</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="clusterization.html">Clusters</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="genetic.html">Genetic</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="ants.html">Ants</a>
+          </li>
+        </ul>
+      </div>
+      <div class="logo">
+        <h1>HiTs</h1>
+          <p class="TSU">TomskStateUniversity</p>
+      </div>
+      </div>
+    </div>
+  </nav>
+  <h2 class="title text-center">Traveling Salesman Problem</h2>
+        <div class="text-center">
+        <div class="card-body">
+          <div>
+            <div class="row">
+              <div class="text col-sm-6">
+                <label for="numSurvival">Number of Cities:</label>
+                <input type="number" id="numSurvival" value="100" min="2">
+              </div>
+              <div class="col-sm-6"><button id="loadButton" class="btn btn-primary">Load Points</button></div>
+            </div>
+        <div>
+          <div>
+            <canvas id="canvas" width="800" height="600"></canvas>
+          </div>
+              <div><button id="runButton" class="btn btn-primary">Run Genetic Algorithm</button></div>
+        <div>
+        </div>
+        </div>
+        <footer class="fixed-bottom">
+          <div class="navbar p-3" style="display: flex; justify-content: center; align-items: center;">
+            <a href="https://vk.com/hits_tsu">
+            <img src="/assets/vk-logo.png" width="40"height="40">
+            </a>
+            <a href="https://hits.tsu.ru/">
+            <img src="/assets/web.png" width="40"height="40">
+            </a>
+            <a href="https://www.youtube.com/channel/UC8jUXsbop4qV8tamXxsivyA">
+            <img src="/assets/youtube.png" width="40"height="40">
+            </a>
+          </div>
+        </footer>
+          <script src="/js/ants.js"></script>
+          <script src="/js/navbar.js"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+        </body>
+</html>
+
