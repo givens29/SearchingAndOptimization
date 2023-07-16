@@ -79,7 +79,6 @@ function runGeneticAlgorithm() {
     alert('Please load cities points first.');
     return;
   }
-
   const ga = new GeneticAlgorithm(cities, populationSize, mutationRate, generations);
   ga.runAnimation();
 }

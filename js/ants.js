@@ -15,7 +15,7 @@ for (let y = 0; y <= canvas.height; y += 50) {
   ctx.lineTo(canvas.width, y);
   ctx.stroke();
 }
-const numCities = parseInt(document.getElementById('numSurvival').value, 10);
+let numCities;
 const numAnts = 10;
 const numIterations = 100;
 const evaporationRate = 0.1;
@@ -32,6 +32,7 @@ loadButton.addEventListener('click', loadPoints);
 runButton.addEventListener('click', runAntColonyOptimization);
 
 function loadPoints() {
+  numCities = parseInt(document.getElementById('numSurvival').value, 10);
   cities = generateRandomCities(numCities);
   drawCities();
   initializePheromoneMatrix();
